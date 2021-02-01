@@ -16,6 +16,8 @@ var nav: navigations = navigations()
 
 class ViewController: UIViewController {
 
+    var testvar = 0
+    
     var up = UIButton()
     var down = UIButton()
     var left = UIButton()
