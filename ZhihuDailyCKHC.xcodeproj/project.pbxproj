@@ -109,15 +109,13 @@
 			children = (
 				74CAD2422560C9C000EE111D /* AppDelegate.swift */,
 				74CAD2442560C9C000EE111D /* SceneDelegate.swift */,
-				74CAD2462560C9C000EE111D /* ViewController.swift */,
-				74CAD2482560C9C000EE111D /* Main.storyboard */,
-				74CAD24B2560C9C300EE111D /* Assets.xcassets */,
-				74CAD24D2560C9C300EE111D /* LaunchScreen.storyboard */,
 				74CAD2502560C9C300EE111D /* Info.plist */,
-				7419612325C7F86C005E6E58 /* Constants.swift */,
-				7419612825C7FA5A005E6E58 /* Story.swift */,
-				7419617C25C94BC2005E6E58 /* Response.swift */,
-				7419617325C93216005E6E58 /* Model.swift */,
+				74CAD24B2560C9C300EE111D /* Assets.xcassets */,
+				74D2517825D12A8100315EBA /* Models */,
+				74D2517725D12A7200315EBA /* Veiws */,
+				74D2517625D12A5D00315EBA /* ViewControllers */,
+				74D2517B25D12AF500315EBA /* Storyboards */,
+				74D2517A25D12ABC00315EBA /* Helpers */,
 			);
 			path = ZhihuDailyCKHC;
 			sourceTree = "<group>";
@@ -138,6 +136,48 @@
 				74CAD2662560C9C400EE111D /* Info.plist */,
 			);
 			path = ZhihuDailyCKHCUITests;
+			sourceTree = "<group>";
+		};
+		74D2517625D12A5D00315EBA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74CAD2462560C9C000EE111D /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74D2517725D12A7200315EBA /* Veiws */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Veiws;
+			sourceTree = "<group>";
+		};
+		74D2517825D12A8100315EBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7419612825C7FA5A005E6E58 /* Story.swift */,
+				7419617C25C94BC2005E6E58 /* Response.swift */,
+				7419617325C93216005E6E58 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74D2517A25D12ABC00315EBA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7419612325C7F86C005E6E58 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74D2517B25D12AF500315EBA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				74CAD2482560C9C000EE111D /* Main.storyboard */,
+				74CAD24D2560C9C300EE111D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

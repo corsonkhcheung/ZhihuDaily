@@ -29,13 +29,15 @@ class Model {
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .formatted(converter)
                 let response = try decoder.decode(Response.self, from: data!)
-                if response.items != nil {
+                if response.stories != nil {
                     DispatchQueue.main.async {
-                        self.delegate?.storiesFetched(response.items!)
+                        self.delegate?.storiesFetched(response.stories!)
                     }
                 }
                 // dump(response)
-            } catch {}
+            } catch {
+                print(error)
+            }
         }
         dataTask.resume()
     }

@@ -43,5 +43,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
+//    let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: Constants.SCREEN.width, height: 200))
+//    imageView.image = UIImage()
+//    cell.contentView.addSubview(imageView)
+    
 }
 
