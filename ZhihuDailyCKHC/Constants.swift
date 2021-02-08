@@ -6,11 +6,15 @@
 //
 
 import Foundation
+import UIKit
 
 struct Constants {
     
+    static var SCREEN = UIScreen.main.bounds
     static var START_SCREEN_IMAGE_URL = "http://news-at.zhihu.com/api/4/start-image/1080*1776"
     static var LATEST_NEWS = "http://news-at.zhihu.com/api/4/news/latest"
     static var LATEST_NEWS_CONTENT = "http://news-at.zhihu.com/api/4/news/\(Constants.LATEST_NEWS)"
+    
+    static var STORYCELL_ID = "StoryCell"
     
 }
